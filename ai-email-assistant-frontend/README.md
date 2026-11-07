@@ -133,10 +133,6 @@ It also recognizes `generatedReply`, `emailReply`, `content`, and `message` as a
 6. Review the generated response and choose **Copy reply**.
 7. Paste the draft into your email client and review it before sending.
 
-## Gmail integration note
-
-The supplied Gmail screenshot shows an **AI Reply** button inside a Gmail reply composer. The React application in this repository provides the reply-generation interface, but a button embedded directly in Gmail requires a separate browser extension (for example, a Chrome Extension using Gmail page integration or a supported Gmail add-on). That integration is not included in this frontend package. The same backend generation endpoint can be reused by such an extension.
-
 ## Security and privacy considerations
 
 - Do not commit `.env` files containing secrets.
